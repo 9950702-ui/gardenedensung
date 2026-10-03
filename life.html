@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Life · Garden of Eden SC Sung</title>
+<meta name="description" content="Reading notes and photography exhibits by Eden SC Sung.">
+<meta property="og:title" content="Life · Garden of Eden SC Sung">
+<meta property="og:description" content="Reading notes and photography exhibits by Eden SC Sung.">
+<meta property="og:image" content="images/home-life-silhouette.webp">
+<meta name="theme-color" content="#0B0C0E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B0C0E'/%3E%3Cpath d='M12 40 C 24 18, 36 50, 52 22' fill='none' stroke='%23C5AECF' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600&amp;family=Manrope:wght@400;500;600&amp;family=Fraunces:ital,opsz,wght@1,9..144,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F5F5F7}
+a{color:#1D1D1F}a:hover{color:#000000}
+@keyframes ge-rv{from{opacity:0;transform:translateY(56px) scale(.97)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: no-preference){
+@supports (animation-timeline: view()){
+.rv{animation:ge-rv linear both;animation-timeline:view();animation-range:entry 0% cover 35%}
+}
+}
+.ge-book{transition:transform .35s cubic-bezier(.22,1,.36,1), box-shadow .35s ease}
+.ge-book:hover{transform:translateY(-8px);box-shadow:0 24px 48px rgba(0,0,0,.08)}
+.ge-frame{transition:transform .5s cubic-bezier(.22,1,.36,1)}
+.ge-frame:hover{transform:scale(1.02)}
+@media (max-width: 760px){
+.ge-wrap{padding-left:24px !important;padding-right:24px !important}
+.ge-track{padding-left:24px !important;padding-right:24px !important}
+.ge-nav-links{display:none !important}
+.ge-ex{grid-template-columns:minmax(0,1fr) !important;grid-template-rows:auto !important}
+.ge-ex-photos{display:none !important}
+}
+@media (max-width: 420px){
+.ge-email{font-size:13.5px !important;white-space:nowrap}
+}
+[data-if][hidden]{display:none !important}
+</style>
+</head>
+<body>
+<div style="position: relative; color: #1D1D1F; font-family: 'Manrope', system-ui, sans-serif; width: 100%">
+<canvas data-ref="flowRef" aria-hidden="true" style="position: fixed; left: 0; top: 0; width: 100%; z-index: 0; pointer-events: none; display: block"></canvas>
+<div style="position: relative; z-index: 1">
+
+<header style="position: sticky; top: 0; z-index: 10; height: 64px; background: rgba(245, 245, 247, 0.72); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid #E3E3E8">
+<nav class="ge-wrap" style="max-width: 1200px; height: 100%; margin: 0 auto; padding: 0 48px; display: flex; align-items: center; justify-content: space-between; gap: 24px; font-size: 14px">
+<a href="index.html" style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 17px; text-decoration: none">Garden of Eden SC Sung</a>
+<div class="ge-nav-links" style="display: flex; gap: 24px">
+<a href="#reading" style="color: #515154; text-decoration: none">Reading notes</a>
+<a href="#photography" style="color: #515154; text-decoration: none">Photography</a>
+</div>
+</nav>
+</header>
+
+<section class="ge-wrap" style="max-width: 1200px; margin: 0 auto; padding: 160px 48px 140px; display: flex; flex-direction: column; gap: 20px">
+<div class="rv" data-t-style="font-size: 15px; color: {{ leaf }}; font-weight: 600">Life</div>
+<h1 class="rv" style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: clamp(56px, 9vw, 128px); line-height: 0.95; letter-spacing: -0.04em">Life in the light.</h1>
+<p class="rv" style="margin: 0; font-size: 22px; line-height: 1.5; color: #515154; max-width: 560px">What I read, and what I see.</p>
+</section>
+
+<section id="reading" data-ref="books.outerRef" data-t-style="position: relative; height: {{ books.outerH }}px">
+<div data-t-style="position: sticky; top: 64px; height: {{ books.innerH }}px; overflow: hidden; display: flex; flex-direction: column; justify-content: center; gap: 32px">
+<div data-ref="books.trackRef" class="ge-track" data-t-style="display: flex; width: max-content; box-sizing: border-box; gap: 24px; height: {{ cardH }}px; padding: 0 max(48px, calc((100vw - 1104px) / 2)); transform: translate3d({{ books.tx }}px, 0, 0); will-change: transform">
+<div style="flex: 0 0 auto; width: min(420px, 80vw); display: flex; flex-direction: column; justify-content: center; gap: 16px">
+<div data-t-style="font-size: 15px; color: {{ leaf }}; font-weight: 600">Reading notes</div>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: clamp(40px, 5vw, 64px); line-height: 1; letter-spacing: -0.03em">Books that stayed.</h2>
+<div style="font-size: 15px; color: #6E6E73">Keep scrolling</div>
+</div>
+<article class="ge-book" style="flex: 0 0 auto; width: min(620px, 84vw); background: rgba(255, 255, 255, 0.62); border-radius: 32px; padding: 48px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 36px; letter-spacing: -0.02em">The Art of Loving</h3>
+<div style="font-size: 15px; color: #6E6E73">Erich Fromm</div>
+</div>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-style: italic; font-size: 30px; line-height: 1.35; color: #1D1D1F">Love is the ultimate reason we exist, yet we treat it as a gift rather than something we learn.</p>
+</article>
+<article class="ge-book" style="flex: 0 0 auto; width: min(620px, 84vw); background: rgba(255, 255, 255, 0.62); border-radius: 32px; padding: 48px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 36px; letter-spacing: -0.02em">Four Thousand Weeks</h3>
+<div style="font-size: 15px; color: #6E6E73">Oliver Burkeman</div>
+</div>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-style: italic; font-size: 30px; line-height: 1.35; color: #1D1D1F">Time flies like a butterfly. The more you chase it, the farther it gets.</p>
+</article>
+</div>
+<div class="ge-wrap" style="width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 48px; box-sizing: border-box">
+<div style="height: 2px; background: #E3E3E8; border-radius: 2px"><div data-t-style="height: 2px; width: {{ books.bar }}%; background: {{ leaf }}; border-radius: 2px"></div></div>
+</div>
+</div>
+</section>
+
+<section id="photography" data-ref="exhibits.outerRef" data-t-style="position: relative; height: {{ exhibits.outerH }}px; background: rgba(255, 255, 255, 0.45)">
+<div data-t-style="position: sticky; top: 64px; height: {{ exhibits.innerH }}px; overflow: hidden; display: flex; flex-direction: column; justify-content: center; gap: 32px">
+<div data-ref="exhibits.trackRef" class="ge-track" data-t-style="display: flex; width: max-content; box-sizing: border-box; gap: 32px; height: {{ cardH }}px; padding: 0 max(48px, calc((100vw - 1104px) / 2)); transform: translate3d({{ exhibits.tx }}px, 0, 0); will-change: transform">
+<div style="flex: 0 0 auto; width: min(400px, 80vw); display: flex; flex-direction: column; justify-content: center; gap: 16px">
+<div data-t-style="font-size: 15px; color: {{ leaf }}; font-weight: 600">Photography</div>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: clamp(40px, 5vw, 64px); line-height: 1; letter-spacing: -0.03em">Five exhibits.</h2>
+<div style="font-size: 15px; color: #6E6E73">Keep scrolling</div>
+</div>
+
+<div class="ge-ex" style="flex: 0 0 auto; width: min(1000px, 86vw); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr); grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); gap: 16px">
+
+<figure class="ge-frame" style="position: relative; margin: 0; grid-row: span 2; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/city-1-night-bridge.webp" alt="A city at night seen from a hill, a bridge of streetlights and car light trails leading into the old town" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% 60%; display: block">
+<figcaption style="position: absolute; left: 16px; right: 16px; bottom: 16px; background: rgba(255, 255, 255, 0.88); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 20px; padding: 20px 22px; display: flex; flex-direction: column; gap: 6px; color: #1D1D1F; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12)">
+<span style="font-size: 13px; color: #6E6E73">Exhibit 1 · City</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: clamp(24px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em">The Moving Stillness</span>
+<span style="font-family: 'Fraunces', Georgia, serif; font-style: italic; font-size: 17px; line-height: 1.4; color: #515154">Quiet frames drifting through a city that never stops moving.</span>
+</figcaption>
+</figure>
+
+
+
+
+<div class="ge-frame ge-ex-photos" style="position: relative; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/city-2-temple-tower.webp" alt="A traditional temple hall with Tokyo Tower rising behind it and visitors queuing on the steps" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; display: block">
+</div>
+
+
+
+
+<div class="ge-frame ge-ex-photos" style="position: relative; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/city-3-trains.webp" alt="Two commuter trains, one green and one blue, blurred in motion across the tracks" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 40% 50%; display: block">
+</div>
+
+
+
+</div>
+
+<div class="ge-ex" style="flex: 0 0 auto; width: min(1000px, 86vw); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr); grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); gap: 16px">
+
+<figure class="ge-frame" style="position: relative; margin: 0; grid-row: span 2; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/street-1-white-wall.webp" alt="A tall white concrete wall with a narrow slot where a single young sapling grows upward" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 55%; display: block">
+<figcaption style="position: absolute; left: 16px; right: 16px; bottom: 16px; background: rgba(255, 255, 255, 0.88); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 20px; padding: 20px 22px; display: flex; flex-direction: column; gap: 6px; color: #1D1D1F; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12)">
+<span style="font-size: 13px; color: #6E6E73">Exhibit 2 · Minimalism</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: clamp(24px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em">A Minimalist in a World of Abundance</span>
+<span style="font-family: 'Fraunces', Georgia, serif; font-style: italic; font-size: 17px; line-height: 1.4; color: #515154">Less, found in the middle of more.</span>
+</figcaption>
+</figure>
+
+
+
+
+<div class="ge-frame ge-ex-photos" style="position: relative; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/people-1-cat.webp" alt="A tabby cat peeking out of a polka-dot cat bed, with plush fish toys tucked in the other opening" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 12% 50%; display: block">
+</div>
+
+
+
+
+<div class="ge-frame ge-ex-photos" style="position: relative; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/people-3-psyduck.webp" alt="A yellow duck figure clutching its head beside a blurred golden box on a table" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% 45%; display: block">
+</div>
+
+
+
+</div>
+
+<div class="ge-ex" style="flex: 0 0 auto; width: min(560px, 86vw); display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); gap: 16px">
+
+<figure class="ge-frame" style="position: relative; margin: 0; grid-row: span 2; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/nature-2-magpie.webp" alt="A magpie crosses a sunlit paved path while a cyclist and walkers move through the warm light beyond" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 60%; display: block">
+<figcaption style="position: absolute; left: 16px; right: 16px; bottom: 16px; background: rgba(255, 255, 255, 0.88); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 20px; padding: 20px 22px; display: flex; flex-direction: column; gap: 6px; color: #1D1D1F; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12)">
+<span style="font-size: 13px; color: #6E6E73">Exhibit 3 · Happiness</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: clamp(24px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em">Happiness Is Like…</span>
+<span style="font-family: 'Fraunces', Georgia, serif; font-style: italic; font-size: 17px; line-height: 1.4; color: #515154">Happiness in every form, or in one and only form?</span>
+</figcaption>
+</figure>
+
+
+
+</div>
+
+<div class="ge-ex" style="flex: 0 0 auto; width: min(1000px, 86vw); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr); grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); gap: 16px">
+
+<figure class="ge-frame" style="position: relative; margin: 0; grid-row: span 2; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/nature-1-kimono-light.webp" alt="A small girl in a bright kimono walks into shafts of golden sunlight falling through tall shrine trees" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; display: block">
+<figcaption style="position: absolute; left: 16px; right: 16px; bottom: 16px; background: rgba(255, 255, 255, 0.88); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 20px; padding: 20px 22px; display: flex; flex-direction: column; gap: 6px; color: #1D1D1F; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12)">
+<span style="font-size: 13px; color: #6E6E73">Exhibit 4 · Portrait</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: clamp(24px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em">Street Portrait</span>
+
+</figcaption>
+</figure>
+
+
+
+
+<div class="ge-frame ge-ex-photos" style="position: relative; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/street-3-porthole.webp" alt="Seen through a round porthole, a lone traveler walks along a station platform under slanted steel columns" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 52%; display: block">
+</div>
+
+
+
+
+<div class="ge-frame ge-ex-photos" style="position: relative; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/people-2-crossing.webp" alt="Seen from above through bare winter branches, people cross a lined parking lot, one of them smiling" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 55% 45%; display: block">
+</div>
+
+
+
+</div>
+
+<div class="ge-ex" style="flex: 0 0 auto; width: min(560px, 86vw); display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); gap: 16px">
+
+<figure class="ge-frame" style="position: relative; margin: 0; grid-row: span 2; border-radius: 28px; overflow: hidden; background: #E3E3E8; min-height: 0; outline: 1px solid rgba(0, 0, 0, 0.08); outline-offset: -1px">
+<img src="images/street-2-railing-shadow.webp" alt="The shadow of an ornate iron railing falling across a curved stone terrace, the year 2011 set into the ground" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 45% 50%; display: block">
+<figcaption style="position: absolute; left: 16px; right: 16px; bottom: 16px; background: rgba(255, 255, 255, 0.88); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 20px; padding: 20px 22px; display: flex; flex-direction: column; gap: 6px; color: #1D1D1F; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12)">
+<span style="font-size: 13px; color: #6E6E73">Exhibit 5 · Shadow</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: clamp(24px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em">Canvas of Shadow</span>
+
+</figcaption>
+</figure>
+
+
+
+</div>
+
+</div>
+<div class="ge-wrap" style="width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 48px; box-sizing: border-box">
+<div style="height: 2px; background: #E3E3E8; border-radius: 2px"><div data-t-style="height: 2px; width: {{ exhibits.bar }}%; background: {{ leaf }}; border-radius: 2px"></div></div>
+</div>
+</div>
+</section>
+
+<footer class="ge-wrap" style="max-width: 1200px; margin: 0 auto; padding: 48px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; font-size: 15px">
+<a href="index.html" style="display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; color: #515154">Back to home</a>
+<div style="display: flex; gap: 12px; flex-wrap: wrap">
+<button type="button" data-on-click="openCard" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; border: 1px solid #D2D2D7; background: transparent; color: #1D1D1F; font-family: inherit; font-size: 15px; font-weight: 600; cursor: pointer">Say hello</button>
+<a href="work.html" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 999px; background: #1D1D1F; color: #F5F5F7; text-decoration: none; font-weight: 600">See the work side</a>
+</div>
+</footer>
+</div>
+<div data-if="cardMounted" style="display: contents">
+<div data-on-keydown="cardKey" style="position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center; padding: 24px; box-sizing: border-box; overflow: hidden">
+<div data-on-click="closeCard" data-t-style="position: absolute; inset: 0; background: rgba(29, 29, 31, 0.42); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); opacity: {{ dimOp }}; transition: opacity 0.5s ease"></div>
+<button type="button" data-ref="closeRef" aria-label="Close contact card" data-on-click="closeCard" data-t-style="position: absolute; top: 20px; right: 20px; width: 44px; height: 44px; border-radius: 50%; border: none; background: #FFFFFF; color: #1D1D1F; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; opacity: {{ dimOp }}; transition: opacity 0.5s ease">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg>
+</button>
+<div data-t-style="position: relative; width: 380px; max-width: 100%; height: 232px; perspective: 1400px; transform: {{ dealT }}; transition: {{ dealTr }}">
+<div role="dialog" aria-modal="true" aria-label="Contact card" data-t-style="position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transform: {{ flipT }}; transition: {{ flipTr }}">
+
+<div aria-hidden="true" style="position: absolute; inset: 0; border-radius: 22px; background: #1D1D1F; backface-visibility: hidden; -webkit-backface-visibility: hidden; box-shadow: 0 30px 60px rgba(0, 0, 0, 0.28); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; padding: 26px; box-sizing: border-box">
+<svg width="100%" height="120" viewBox="0 0 330 120" preserveAspectRatio="none" style="position: absolute; left: 0; right: 0; bottom: 30px"><defs><linearGradient id="ge-card-rb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B4DCEA"></stop><stop offset="1" stop-color="#C5AECF"></stop></linearGradient></defs><path d="M-10 96 C 70 30, 150 120, 220 60 S 320 20, 345 34" fill="none" stroke="url(#ge-card-rb)" stroke-width="10" stroke-linecap="round"></path></svg>
+<div style="position: relative; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 20px; color: #F5F5F7">Garden of Eden SC Sung</div>
+<div style="position: relative; font-size: 13px; color: #A1A1A6">Humanity, Accountability, and Authentic Connections.</div>
+</div>
+
+<div style="position: absolute; inset: 0; border-radius: 22px; background: #FFFFFF; color: #1D1D1F; backface-visibility: hidden; -webkit-backface-visibility: hidden; transform: rotateY(180deg); box-shadow: 0 30px 60px rgba(0, 0, 0, 0.22); overflow: hidden; padding: 26px 26px 22px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; left: 0; right: 0; top: 0; height: 6px; display: flex"><div style="flex: 1; background: #B4DCEA"></div><div style="flex: 1; background: #C5AECF"></div></div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 13px; color: #6E6E73">Say hello</div>
+<div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 30px; letter-spacing: -0.02em">Eden Sung</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<a href="https://www.instagram.com/edensung__/" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 12px; min-height: 44px; text-decoration: none; color: #1D1D1F; font-size: 16px">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><path d="M17.5 6.5v.01"></path></svg>
+<span>@edensung__</span>
+</a>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 44px">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+<a class="ge-email" href="mailto:edensung2801@gmail.com" style="flex: 1; min-width: 0; color: #1D1D1F; text-decoration: none; font-size: 16px; overflow-wrap: anywhere">edensung2801@gmail.com</a>
+<button type="button" data-on-click="copyEmail" style="min-height: 36px; min-width: 64px; padding: 0 14px; border-radius: 999px; border: 1px solid #D2D2D7; background: #FFFFFF; color: #1D1D1F; font-family: inherit; font-size: 13px; font-weight: 600; cursor: pointer"><span data-t-text="{{ copyLabel }}"></span></button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="assets/js/dc-lite.js"></script>
+<script src="assets/js/life.js"></script>
+</body>
+</html>
